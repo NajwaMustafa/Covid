@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.covid19">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/cover"
+            android:label="COVID-19 INFO"
+            android:roundIcon="@drawable/cover"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".pasien.ManagePasienActivity">
+        </activity>
+        <activity android:name=".pasien.PasienActivity">
+        </activity>
+        <activity android:name=".oranglain">
+        </activity>
+        <activity android:name=".diri">
+        </activity>
+        <activity android:name=".gejala">
+        </activity>
+        <activity android:name=".covid">
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        tools:context=".diri">
+
+    <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GIMANA CARA MELINDUNGI DIRI DARI COVID-19 ?"
+            android:fontFamily="@font/bloomer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textSize="30dp"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/tv2"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="Yang dapat dilakukan dalam melindungi diri sendiri adalah dengan cara:
+
+- Rajin-rajin cuci tangan dengan sabun! Jangan lupa! Sebelum makan, setelah dari toilet, setelah memegang binatang, atau setelah berpergian.
+- Ketika batuk atau bersin jangan lupa untuk menutup mulut dan hidung kamu, ya. Pakai tissue, saputangan, atau lipatan siku.
+- Hindari kontak dekat dengan orang yang menunjukkan gejala Covid-19
+- Hindari kerumunan
+- Jangan lupa untuk jaga jarak lebih dari 1 meter  antar kamu dan orang-orang di sekitarmu (social distancing)"
+            android:textSize="20dp"
+            android:textColor="@color/darkblue"
+            android:fontFamily="sans-serif-condensed-light"/>
+
+    <ImageView
+            android:layout_width="356dp"
+            android:layout_height="208dp"
+            android:src="@drawable/sd"
+            android:layout_below="@id/tv2"
+            android:layout_marginTop="-32dp"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="0dp"/>
+
+    <Button
+            android:id="@+id/back3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:background="@drawable/button"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="HOME"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+
+</RelativeLayout>

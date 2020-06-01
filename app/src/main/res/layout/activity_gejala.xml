@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        tools:context=".gejala">
+
+    <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APA AJA SIH GEJALA COVID - 19 ?"
+            android:fontFamily="@font/bloomer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textSize="30dp"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/gejala"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:text="Gejala COVID-19 yang umum adalah demam, rasa lelah dan batuk kering.
+
+Ada juga yang mengalami rasa nyeri dan sakit, hidung tersumbat, pilek, sakit tenggorokan atau diare.
+
+Ada juga yang tidak merasakan apa-apa, seperti orang sehat."
+            android:textSize="20dp"
+            android:textColor="@color/darkblue"
+            android:fontFamily="sans-serif-condensed-light"/>
+
+    <ImageView
+            android:layout_width="217dp"
+            android:layout_height="188dp"
+            android:layout_below="@id/gejala"
+            android:src="@drawable/coughing"
+            android:layout_marginTop="28dp"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="17dp"/>
+
+    <Button
+            android:id="@+id/back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gejala"
+            android:background="@drawable/button"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="20dp"
+            android:text="HOME"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+
+</RelativeLayout>
